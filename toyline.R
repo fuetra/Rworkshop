@@ -6,3 +6,5 @@ y  <- a + b*x + rnorm(40, sd=sqrt(sigSq))
 plot(x,y)
 abline(a,b, col="red")
 dev.print(pdf, "toylinePlot.pdf")
+
+#comment added as test
